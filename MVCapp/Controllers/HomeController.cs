@@ -26,5 +26,20 @@ namespace MVCapp.Controllers
 
             return View();
         }
+
+        public ActionResult Project()
+        {
+            return View();
+        }
+
+        public ActionResult Experience()
+        {
+            return View();
+        }
+
+        public ActionResult Services()
+        {
+            return View();
+        }
     }
 }

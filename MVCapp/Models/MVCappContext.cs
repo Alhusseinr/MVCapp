@@ -20,5 +20,9 @@ namespace MVCapp.Models
         }
 
         public System.Data.Entity.DbSet<MVCapp.Models.Login> Logins { get; set; }
+
+        public System.Data.Entity.DbSet<MVCapp.Models.register> registers { get; set; }
+
+        public System.Data.Entity.DbSet<MVCapp.Models.contactForm> contactForms { get; set; }
     }
 }

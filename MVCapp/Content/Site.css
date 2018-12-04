@@ -1,6 +1,4 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +19,41 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+/* start custom css */
+.nav-item a {
+    text-decoration: none;
+}
+
+#jumboMain a {
+    text-decoration: none;
+}
+
+    #jumboMain a:focus {
+        color: black;
+        text-decoration: none
+    }
+
+.nav-item span {
+    margin-right: 10px;
+}
+
+.hr {
+    border-top: 2px solid navajowhite;
+    width: 15%;
+    margin-right: 135em;
+}
+
+.inner {
+    box-shadow: 0px 0px 3px lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 100%;
+    padding: 1rem;
+}
+
+.txtBottom {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 1rem;
 }
